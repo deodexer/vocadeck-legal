@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — Vocadeck</title>
+  <style>
+    :root {
+      --primary: #5B4FCF;
+      --bg: #f9f9fb;
+      --text: #1a1a2e;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 0 16px 48px;
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 32px 24px;
+      margin: 0 -16px 40px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; margin-bottom: 6px; }
+    header p  { opacity: .85; font-size: .95rem; }
+    main { max-width: 760px; margin: 0 auto; }
+    h2 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin: 36px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--border);
+    }
+    p, li { font-size: .97rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    .badge {
+      display: inline-block;
+      background: #eef2ff;
+      color: var(--primary);
+      border-radius: 6px;
+      padding: 2px 8px;
+      font-size: .82rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .no-share {
+      background: #f0fdf4;
+      border-left: 4px solid #16a34a;
+      padding: 14px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 12px 0;
+    }
+    .no-share strong { color: #15803d; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .9rem; }
+    th, td { text-align: left; padding: 10px 12px; border: 1px solid var(--border); }
+    th { background: #f3f4f6; font-weight: 600; }
+    footer { text-align: center; margin-top: 56px; color: var(--muted); font-size: .85rem; }
+    .lang-toggle { text-align: right; margin-bottom: 8px; }
+    .lang-toggle a { color: var(--primary); font-size: .85rem; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Politique de confidentialité</h1>
+  <p>Vocadeck · Dernière mise à jour : 26 juin 2026</p>
+</header>
+
+<main>
+
+  <div class="no-share">
+    <strong>Engagement principal :</strong> Vocadeck ne vend, ne partage, ne revend et n'exploite
+    commercialement aucune donnée personnelle de ses utilisateurs. L'application ne contient
+    aucune publicité.
+  </div>
+
+  <h2>1. Qui est responsable du traitement ?</h2>
+  <p>
+    Vocadeck est une application développée et maintenue par un développeur indépendant
+    (<strong>deodex-dev</strong>), joignable à l'adresse :
+    <a href="mailto:pylseb@gmail.com">pylseb@gmail.com</a>.
+  </p>
+
+  <h2>2. Données collectées</h2>
+  <table>
+    <thead>
+      <tr><th>Donnée</th><th>Source</th><th>Usage</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Adresse e-mail, prénom/nom, photo de profil</td>
+        <td>Connexion Google</td>
+        <td>Identification de votre compte</td>
+      </tr>
+      <tr>
+        <td>Cartes de vocabulaire (recto/verso)</td>
+        <td>Saisie utilisateur</td>
+        <td>Fonctionnement de l'application</td>
+      </tr>
+      <tr>
+        <td>Données d'apprentissage SRS (niveau, intervalles)</td>
+        <td>Votes de l'utilisateur</td>
+        <td>Personnalisation de la révision</td>
+      </tr>
+      <tr>
+        <td>Identifiant Firebase (anonyme)</td>
+        <td>SDK Firebase (automatique)</td>
+        <td>Gestion des sessions d'authentification</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    <strong>Aucune donnée de localisation, de contact, de santé, ou de paiement n'est collectée.</strong>
+  </p>
+
+  <h2>3. Sous-traitants techniques (tiers obligatoires)</h2>
+  <p>
+    Vocadeck utilise des services tiers strictement nécessaires au fonctionnement de
+    l'application. Ces prestataires agissent en tant que <em>sous-traitants</em> et
+    ne peuvent utiliser vos données qu'aux fins décrites ici.
+  </p>
+  <ul>
+    <li>
+      <strong>Google Firebase Authentication</strong> — gestion des connexions Google.
+      <span class="badge">Google LLC</span>
+    </li>
+    <li>
+      <strong>Google Cloud Firestore</strong> — synchronisation chiffrée de vos cartes entre appareils.
+      <span class="badge">Google LLC</span>
+    </li>
+    <li>
+      <strong>MyMemory Translated.net</strong> — traduction automatique (uniquement le mot/la phrase saisi, sans identification).
+      <span class="badge">Translated SRL</span>
+    </li>
+  </ul>
+  <p>
+    Ces sociétés disposent de leurs propres politiques de confidentialité conformes au RGPD.
+    Les données transmises à MyMemory ne contiennent <strong>aucune information personnelle</strong>
+    (uniquement le texte à traduire).
+  </p>
+
+  <h2>4. Ce que nous ne faisons pas</h2>
+  <div class="no-share">
+    <ul style="list-style:none;padding:0">
+      <li>✅ Aucune publicité, ni ciblée ni générique</li>
+      <li>✅ Aucune vente de données à des tiers</li>
+      <li>✅ Aucun partage de données à des fins commerciales</li>
+      <li>✅ Aucun profilage, aucun pistage comportemental</li>
+      <li>✅ Aucun outil d'analyse marketing (pas de Google Analytics)</li>
+    </ul>
+  </div>
+
+  <h2>5. Stockage et sécurité</h2>
+  <p>
+    Vos données sont stockées <strong>localement sur votre appareil</strong> (base SQLite) et
+    <strong>dans Google Firestore</strong> (serveurs Google en Europe ou aux États-Unis, selon
+    la région Firebase de votre projet). Les données en transit sont chiffrées via TLS.
+    Firebase Firestore applique des règles de sécurité garantissant qu'aucun autre utilisateur
+    ne peut accéder à vos cartes.
+  </p>
+
+  <h2>6. Durée de conservation</h2>
+  <p>
+    Vos données sont conservées tant que vous utilisez l'application. Vous pouvez les supprimer
+    à tout moment via <strong>Menu &gt; Vider toutes les données</strong>, ce qui supprime
+    définitivement toutes vos cartes en local et dans le cloud.
+  </p>
+
+  <h2>7. Vos droits (RGPD)</h2>
+  <p>Conformément au Règlement Général sur la Protection des Données (RGPD / UE 2016/679) :</p>
+  <ul>
+    <li><strong>Droit d'accès</strong> — vos données sont visibles directement dans l'application.</li>
+    <li><strong>Droit de rectification</strong> — modifiez vos cartes à tout moment.</li>
+    <li><strong>Droit à l'effacement</strong> — "Vider toutes les données" dans le menu.</li>
+    <li><strong>Droit à la portabilité</strong> — vos cartes sont au format texte, exportables sur demande.</li>
+    <li><strong>Droit d'opposition</strong> — vous pouvez vous déconnecter à tout moment.</li>
+  </ul>
+  <p>
+    Pour exercer ces droits ou pour toute question, contactez :
+    <a href="mailto:pylseb@gmail.com">pylseb@gmail.com</a>
+  </p>
+
+  <h2>8. Mineurs</h2>
+  <p>
+    Vocadeck ne cible pas les enfants de moins de 13 ans et ne collecte pas sciemment de
+    données les concernant.
+  </p>
+
+  <h2>9. Modifications</h2>
+  <p>
+    Toute modification substantielle de cette politique sera notifiée via une mise à jour de
+    l'application. La date en haut de cette page indique la version en vigueur.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    Pour toute question relative à la confidentialité :
+    <a href="mailto:pylseb@gmail.com">pylseb@gmail.com</a>
+  </p>
+
+</main>
+
+<footer>
+  <p>Vocadeck · Politique de confidentialité · © 2026 deodex-dev</p>
+</footer>
+
+</body>
+</html>
