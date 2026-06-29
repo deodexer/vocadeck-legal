@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Vocadeck</title>
+  <style>
+    :root { --primary: #5B4FCF; --bg: #f9f9fb; --text: #1a1a2e; --muted: #6b7280; --border: #e5e7eb; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; padding: 0 16px 48px; }
+    header { background: var(--primary); color: #fff; padding: 32px 24px; margin: 0 -16px 40px; text-align: center; }
+    header h1 { font-size: 1.8rem; margin-bottom: 6px; }
+    header p { opacity: .85; font-size: .95rem; }
+    main { max-width: 760px; margin: 0 auto; }
+    h2 { font-size: 1.15rem; color: var(--primary); margin: 36px 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--border); }
+    p, li { font-size: .97rem; margin-bottom: 10px; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    .badge { display: inline-block; background: #eef2ff; color: var(--primary); border-radius: 6px; padding: 2px 8px; font-size: .82rem; font-weight: 600; margin-bottom: 6px; }
+    .no-share { background: #f0fdf4; border-left: 4px solid #16a34a; padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 12px 0; }
+    .no-share strong { color: #15803d; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: .9rem; }
+    th, td { text-align: left; padding: 10px 12px; border: 1px solid var(--border); }
+    th { background: #f3f4f6; font-weight: 600; }
+    footer { text-align: center; margin-top: 56px; color: var(--muted); font-size: .85rem; }
+    .lang-toggle { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; margin-bottom: 16px; }
+    .lang-toggle a { font-size: 1.4rem; text-decoration: none; line-height: 1; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Vocadeck · Last updated: June 26, 2026</p>
+</header>
+<main>
+  <div class="lang-toggle">
+    <a href="privacy-policy_FR.html" title="Français">🇫🇷</a>
+    <a href="privacy-policy_EN.html" title="English">🇬🇧</a>
+    <a href="privacy-policy_ES.html" title="Español">🇪🇸</a>
+    <a href="privacy-policy_PT.html" title="Português">🇵🇹</a>
+    <a href="privacy-policy_ZH.html" title="中文">🇨🇳</a>
+    <a href="privacy-policy_AR.html" title="العربية">🇸🇦</a>
+    <a href="privacy-policy_RU.html" title="Русский">🇷🇺</a>
+    <a href="privacy-policy_HI.html" title="हिन्दी">🇮🇳</a>
+    <a href="privacy-policy_BN.html" title="বাংলা">🇧🇩</a>
+    <a href="privacy-policy_ID.html" title="Bahasa Indonesia">🇮🇩</a>
+  </div>
+  <div class="no-share">
+    <strong>Core commitment:</strong> Vocadeck does not sell, share, resell, or commercially exploit
+    any personal data of its users. The app contains no advertising.
+  </div>
+  <h2>1. Who is responsible for data processing?</h2>
+  <p>Vocadeck is an application developed and maintained by an independent developer
+    (<strong>deodex-dev</strong>), reachable at:
+    <a href="mailto:vocadeck.support@gmail.com">vocadeck.support@gmail.com</a>.</p>
+  <h2>2. Data collected</h2>
+  <table>
+    <thead><tr><th>Data</th><th>Source</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td>Email address, name, profile photo</td><td>Google Sign-In</td><td>Account identification</td></tr>
+      <tr><td>Vocabulary cards (front/back)</td><td>User input</td><td>App functionality</td></tr>
+      <tr><td>SRS learning data (level, intervals)</td><td>User votes</td><td>Personalized review scheduling</td></tr>
+      <tr><td>Firebase identifier (anonymous)</td><td>Firebase SDK (automatic)</td><td>Authentication session management</td></tr>
+    </tbody>
+  </table>
+  <p><strong>No location, contact, health, or payment data is collected.</strong></p>
+  <h2>3. Technical sub-processors (required third parties)</h2>
+  <p>Vocadeck uses third-party services strictly necessary for the app to function. These providers act as <em>sub-processors</em> and may only use your data for the purposes described here.</p>
+  <ul>
+    <li><strong>Google Firebase Authentication</strong> — Google Sign-In management. <span class="badge">Google LLC</span></li>
+    <li><strong>Google Cloud Firestore</strong> — encrypted synchronization of your cards across devices. <span class="badge">Google LLC</span></li>
+    <li><strong>MyMemory Translated.net</strong> — automatic translation (only the word/phrase entered, no identification). <span class="badge">Translated SRL</span></li>
+  </ul>
+  <p>Data sent to MyMemory contains <strong>no personal information</strong> (only the text to translate).</p>
+  <h2>4. What we do not do</h2>
+  <div class="no-share">
+    <ul style="list-style:none;padding:0">
+      <li>✅ No advertising, targeted or generic</li>
+      <li>✅ No sale of data to third parties</li>
+      <li>✅ No sharing of data for commercial purposes</li>
+      <li>✅ No profiling, no behavioral tracking</li>
+      <li>✅ No marketing analytics tools (no Google Analytics)</li>
+    </ul>
+  </div>
+  <h2>5. Storage and security</h2>
+  <p>Your data is stored <strong>locally on your device</strong> (SQLite database) and
+    <strong>in Google Firestore</strong> (Google servers in Europe or the United States).
+    Data in transit is encrypted via TLS. Firebase Firestore security rules ensure no other
+    user can access your cards.</p>
+  <h2>6. Retention period</h2>
+  <p>Your data is retained as long as you use the app. You can delete it at any time via
+    <strong>Menu &gt; Delete all data</strong>.</p>
+  <h2>7. Your rights (GDPR)</h2>
+  <p>In accordance with the General Data Protection Regulation (GDPR / EU 2016/679):</p>
+  <ul>
+    <li><strong>Right of access</strong> — your data is visible directly in the app.</li>
+    <li><strong>Right of rectification</strong> — edit your cards at any time.</li>
+    <li><strong>Right to erasure</strong> — "Delete all data" in the menu.</li>
+    <li><strong>Right to portability</strong> — your cards are in text format, exportable on request.</li>
+    <li><strong>Right to object</strong> — sign out at any time.</li>
+  </ul>
+  <p>To exercise these rights: <a href="mailto:vocadeck.support@gmail.com">vocadeck.support@gmail.com</a></p>
+  <h2>8. Minors</h2>
+  <p>Vocadeck does not target children under 13 and does not knowingly collect data about them.</p>
+  <h2>9. Changes</h2>
+  <p>Any significant changes will be communicated via an app update. The date at the top of this page indicates the current version.</p>
+  <h2>10. Contact</h2>
+  <p><a href="mailto:vocadeck.support@gmail.com">vocadeck.support@gmail.com</a></p>
+</main>
+<footer><p>Vocadeck · Privacy Policy · © 2026 deodex-dev</p></footer>
+</body>
+</html>
